@@ -1,0 +1,409 @@
+.header{
+    background: #f7f7f7;
+}
+.header_warp{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+.header_logo{
+    width: 150px;
+    height: 38px;
+    background: url("../img/logo.png") left center no-repeat;
+    background-size: 38px 38px;
+    line-height:38px;
+    font-size: 20px;
+    color: #07111b;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    text-indent: 50px;
+    left: 20px;
+}
+.header_nav{
+    position: absolute;
+    right: 20px;
+    height: 38px;
+    top: 50%;
+    margin-top: -19px;
+}
+.header_nav-item{
+    display: block;
+    color: #292f35;
+    font-size: 14px;
+    line-height: 38px;
+    float: left;
+    position: relative;
+    height: 38px;
+    width: 30px;
+    text-align: center;
+    padding-left: 40px;
+}
+.header__nav-item:hover{
+    color: rgba(255,0,0,0.6);
+}
+.header_nav-item_underline{
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #f01400;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+    margin-left: 40px;
+}
+.header_nav-item_buy_button{
+    width: 90px;
+    height: 38px;
+    background-color: #07111b;
+    border-radius: 3px;
+    color: #f4f4f5;
+    text-align: center;
+    margin-left:40px;
+    padding: 0;
+    display: block;
+    font-size: 14px;
+    line-height: 38px;
+    float: left;
+    position: relative;
+}
+.screen-1{
+    height: 800px;
+    position: relative;
+    background: url("../img/bg-screen-1.png") no-repeat center;
+    background-size: cover;
+}
+.screen-1_heading{
+    height: 47px;
+    font-weight: normal;
+    font-family: "Microsoft YaHei UI",微软雅黑;
+    color: #4d555d;
+    font-size: 46px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+    display: block;
+    padding-top: 152px;
+}
+.screen-1_heading span{
+    margin-right: 15px;
+    color: #f01400;
+}
+.screen-1_phone{
+    width: 1375px;
+    height: 305px;
+    background: url("../img/screen-1-phone.png") no-repeat center;
+    position: absolute;
+    left: 50%;
+    margin-left: -687px;
+    bottom: 180px;
+    z-index: 2;
+}
+.screen-1_shadow{
+    width: 1233px;
+    height: 411px;
+    background: url("../img/screen-1-shadow.png") no-repeat center;
+    position: absolute;
+    left: 50%;
+    margin-left: -616px;
+    bottom: 30px;
+    z-index: 0;
+    opacity: 0.8;
+}
+.screen-2{
+    height: 800px;
+    background-color: #fafafa;
+    position: relative;
+    overflow: hidden;
+}
+.screen-2_heading{
+    font-family: 微软雅黑;
+    font-weight: normal;
+    color: #f01400;
+    font-size: 46px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 46px;
+    padding-top: 96px;
+}
+.screen-2_subheading{
+    font-weight: normal;
+    color: #2c3137;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+.screen-2_phone{
+    width: 928px;
+    height: 873px;
+    left: 50%;
+    margin-left: -464px;
+    background: url("../img/screen-2-phone.png") no-repeat center;
+    position: absolute;
+    bottom: -345px;
+}
+.screen-2_phone_point{
+    width: 108px;
+    padding-right: 112px;
+    height: 22px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #4d555d;
+    background:url("../img/icon-point-right.png") no-repeat center right;
+    position: absolute;
+}
+.screen-2_phone_point_right{
+    padding:0 0 0 112px;
+    background: url("../img/icon-point-left.png") no-repeat center left;
+}
+.screen-2_phone_i_1{
+    top:150px;
+    left:-164px;
+}
+.screen-2_phone_i_2{
+    top:30px;
+    right: 110px;
+}
+.screen-2_phone_i_3{
+    top: 330px;
+    right: 20px;
+}
+.screen-3{
+    height: 800px;
+    background-color: #b61316;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.screen-3_warp{
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+    text-align: left;
+}
+.screen-3_heading{
+    color: #fff;
+    font-size: 46px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 46px;
+    padding-top: 94px;
+    font-weight: normal;
+}
+.screen-3_subheading{
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 25px;
+}
+.screen-3_phone{
+    width: 756px;
+    height: 873px;
+    right: 20px;
+    background: url("../img/screen-3-phone.png") no-repeat center;
+    position: absolute;
+    bottom: -30px;
+    z-index: 3;
+}
+.screen-3_features{
+    width: 320px;
+    height: 280px;
+    float: left;
+    left: 0;
+    margin-top: 176px;
+}
+.screen-3_features::before{
+    content: " ";
+    clear: both;
+}
+.screen-3_features_item{
+    width: 130px;
+    height: 120px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px #cb7173  solid;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.screen-3_features_item_function {
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+    padding: 28px 0 7px 0;
+    text-align: center;
+    color: #fafafa;
+}
+.screen-3_features_item_desc {
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #fafafa;
+}
+.screen-4{
+    height: 800px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.screen-4_warp{
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+}
+.screen-4_heading{
+    color: #f01400;
+    font-size: 46px;
+    text-align: center;
+    line-height: 46px;
+    padding-top: 135px;
+    font-weight: normal;
+}
+.screen-4_subheading{
+    color: #464a4f;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+.screen-4_model{
+    width: 1260px;
+    height: 270px;
+    position: absolute;
+    margin: 0 auto;
+    top: 304px;
+    left: 32px;
+    right: 0;
+}
+.screen-4_model_item{
+    width: 220px;
+    height: 270px;
+    margin-right: 90px;
+    position: relative;
+    text-align: center;
+    float: left;
+}
+.screen-4_model_item-1{
+    background: url("../img/phone-1.png") no-repeat left top;
+}
+.screen-4_model_item-2{
+    background: url("../img/phone-2.png") no-repeat left top;
+}
+.screen-4_model_item-3{
+    background: url("../img/phone-3.png") no-repeat left top;
+}
+.screen-4_model_item-4{
+    background: url("../img/phone-4.png") no-repeat left top;
+}
+
+.screen-4_model_item_color{
+    width: 100%;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #2c3238;
+    position: absolute;
+    bottom: -44px;
+}
+.screen-4_model_item_rom{
+    width: 100%;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #a4a9ae;
+    position: absolute;
+    bottom: -66px;
+}
+
+.screen-5{
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    background:#d9dde1;
+}
+.screen-5_bg{
+    width: 1920px;
+    height: 433px;
+    background: url("../img/bg-screen-5.png") no-repeat center;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    background-size: cover;
+    bottom: -120px;
+}
+.screen-5_heading{
+    color: #f01400;
+    font-size: 46px;
+    text-align: center;
+    line-height: 46px;
+    padding-top: 130px;
+    font-weight: normal;
+}
+.screen-5_subheading{
+    color: #464a4f;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 25px;
+}
+.screen-buy{
+    height: 80px;
+    padding: 120px 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    background: #2b333b url("../img/bg-screen-buy.png") no-repeat center;
+}
+.screen-buy_button{
+    width: 240px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #f01414;
+    display: inline-block;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+.screen-buy_button:hover{
+    box-shadow: 0 0 10px #07111b;
+    color: #07111b;
+}
+.nav_window{
+    position: fixed;
+    padding: 5px 10px;
+    bottom: 120px;
+    right: 0;
+    background-color: #fff;
+    z-index: 3;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+.nav_window-item{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #fff;
+    margin-top: 5px;
+    border-top: 1px solid #eee;
+    color: #93999f;
+}
+.nav_window-item:first-child{
+    border-top: none;
+}
+.footer{
+   height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background-color: #07111b;
+    line-height: 80px;
+}
